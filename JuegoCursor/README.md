@@ -68,4 +68,3 @@
 ## 🖼️ **Muestra**
 ![Uploading pasher.png…]()
 ![Uploading nuevojuego.png…]()
-
