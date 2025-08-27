@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viaje por las Estrellas</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.min.js"></script>
+  <script defer src="game.js"></script>
+</head>
+<body>
+  <header>
+    <h1>🚀 PASHER: Viaje por las Estrellas</h1>
+    <div class="sub">1. Atrapá estrellas.</div> 
+    <div class="sub">2. Evita los planetas rojos porque restan vidas.</div>
+    <div class="sub">3. Entre más estrellas atrapes más veloz serás.</div>
+  </header>
+
+  <main class="wrap">
+    <section id="game" class="panel"></section>
+    <aside class="panel">
+      <div class="hud">
+        <div class="row"><strong>Puntaje:</strong> <span id="score">0</span></div>
+        <div class="row"><strong>Vidas:</strong> <span id="lives">3</span></div>
+        <div class="row"><strong>Mejor Puntaje:</strong> <span id="best">0</span></div>
+      </div>
+    </aside>
+  </main>
+
+  <button id="restartBtn" class="restart-button">Nuevo Juego</button>
+</body>
+</html>
