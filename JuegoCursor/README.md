@@ -66,5 +66,5 @@
 ---
 
 ## 📸 **Vista previa**
-![Uploading pasher.png…]()
-![Uploading nuevojuego.png…]()
+![pruebajuegosvpe1](https://github.com/user-attachments/assets/5b7fc575-91e1-4c15-9379-a85f1f248745)
+
