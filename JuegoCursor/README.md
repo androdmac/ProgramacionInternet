@@ -1,60 +1,71 @@
-🚀 PASHER: Viaje por las Estrellas
+# Juego: 🚀 PASHER Viaje por las Estrellas
 
-Es un juego realizado para fines de aprendizaje donde controlas un cohete azul para recolectar estrellas mientras evitas planetas rojos. El objetivo es acumular la mayor cantidad de puntos posible sin perder todas tus vidas.
+> **Un juego arcade desarrollado para fines de aprendizaje**  
+> Controla un cohete azul, recolecta estrellas y esquiva planetas.  
+> ¡Pon a prueba tus reflejos y alcanza el puntaje más alto! 🌌
 
-🎮 Controles
+---
 
-Mover el cohete: El cohete sigue suavemente la posición del cursor.
-Reinicio: Aparece un botón centrado cuando pierdes las 3 vidas, que permite reiniciar la partida.
+## 🎮 **Controles**
 
-🕹️ Mecánica del juego
+- **Mover el cohete:** Sigue suavemente la posición del cursor.  
+- **Reiniciar:** Cuando pierdes las 3 vidas, aparece un **botón centrado** para reiniciar la partida.  
 
-Recolectar estrellas:
-Cada estrella amarilla proporciona +10 puntos.
-Las estrellas parpadean suavemente para simular brillo.
-Evitar planetas rojos:
-Cada colisión con un planeta reduce 1 vida.
-Los planetas tienen cráteres y contorno para simular un pequeño planeta real.
+---
 
-Fin del juego:
-Cuando pierdes las 3 vidas, el juego se detiene.
-Se muestra un botón “Jugar Nuevamente” centrado en la pantalla.
+## 🕹️ **Mecánica del juego**
 
-Velocidad dinámica:
-La velocidad del cohete aumenta gradualmente conforme se acumula puntaje, haciendo el juego más desafiante.
+### **Recolectar estrellas**
+- Cada **estrella amarilla** otorga **+10 puntos**.  
+- Las estrellas **parpadean suavemente** para simular brillo.  
 
-Récord persistente:
-El puntaje más alto se guarda automáticamente en el navegador usando localStorage.
+### **Evitar planetas rojos**
+- Cada colisión con un planeta **resta 1 vida**.  
+- Los planetas tienen **cráteres y contorno**, simulando un planeta real.  
 
-🛠️ Modificaciones y mejoras realizadas
+### **Fin del juego**
+- Cuando pierdes las 3 vidas, el juego se detiene.  
+- Aparece el botón **“Jugar Nuevamente”**.  
 
-Gráficos personalizados con Phaser:
-Cohete triangular azul con llama animada en la parte inferior.
-Estrellas amarillas proporcionadas y animadas con parpadeo.
-Planetas rojos con cráteres y contorno negro, tamaño proporcional.
+### **Velocidad dinámica**
+- La velocidad del cohete **aumenta gradualmente** con el puntaje.  
 
-HUD y estadísticas:
-Puntaje actual, vidas restantes y mejor puntaje guardado.
-Actualización en tiempo real durante la partida.
+### **Récord persistente**
+- Se guarda el **mejor puntaje** en el navegador usando `localStorage`.  
 
-Colisiones y físicas:
-Implementación de colisiones mediante física Arcade de Phaser.
-Estrellas y planetas generados en posiciones que no se superpongan.
+---
 
-Botón de reinicio visible y centrado:
-Aparece únicamente al perder las 3 vidas.
-Reinicia la escena y oculta el botón automáticamente.
-Velocidad dinámica:
-Cohete acelera gradualmente con el puntaje.
-Hace el juego más desafiante a medida que progresas.
+## 🛠️ **Modificaciones y mejoras realizadas**
 
-📁 Archivos incluidos
-index.html – Contenedor del juego y HUD.
-style.css – Estilos del juego, HUD y botón de reinicio.
-game.js – Lógica completa del juego:
-Generación de gráficos de cohete, estrellas y planetas.
-Movimiento, colisiones y puntaje.
-Reinicio del juego y almacenamiento del récord.
+- **Gráficos personalizados con Phaser**:
+  - Cohete triangular azul con **llama animada**.
+  - Estrellas amarillas **parpadeantes**.
+  - Planetas rojos con **cráteres y contorno negro**.
+- **HUD y estadísticas**:
+  - Puntaje actual, vidas restantes y **mejor puntaje** guardado.
+- **Colisiones y físicas**:
+  - Implementación de colisiones con **Arcade Physics**.
+  - Objetos generados sin superposición.
+- **Botón de reinicio**:
+  - Visible solo al perder todas las vidas.
+  - Reinicia la escena y oculta el botón automáticamente.
+- **Velocidad dinámica**:
+  - El cohete acelera con el puntaje, aumentando la dificultad.  
 
-🖼️ Muestra
-![pruebajuegosvpe (1)](https://github.com/user-attachments/assets/b8e31291-8e19-42a8-930e-26df3d7051c4)
+---
+
+## 📁 **Archivos incluidos**
+
+- `index.html` – Contenedor del juego y HUD.  
+- `style.css` – Estilos del juego, HUD y botón de reinicio.  
+- `game.js` – Lógica principal:
+  - Generación de gráficos (cohete, estrellas, planetas).
+  - Movimiento, colisiones y puntaje.
+  - Reinicio del juego y almacenamiento del récord.  
+
+---
+
+## 🖼️ **Muestra**
+![Uploading pasher.png…]()
+![Uploading nuevojuego.png…]()
+
