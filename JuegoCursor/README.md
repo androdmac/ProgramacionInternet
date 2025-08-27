@@ -65,6 +65,6 @@
 
 ---
 
-## 🖼️ **Muestra**
+## 📸 **Vista previa**
 ![Uploading pasher.png…]()
 ![Uploading nuevojuego.png…]()
