@@ -2,7 +2,6 @@
 
 > **Un juego arcade desarrollado para fines de aprendizaje**  
 > Controla un cohete azul, recolecta estrellas y esquiva planetas.  
-> ¡Pon a prueba tus reflejos y alcanza el puntaje más alto! 🌌
 
 ---
 
@@ -67,4 +66,3 @@
 
 ## 📸 **Vista previa**
 ![pruebajuegosvpe1](https://github.com/user-attachments/assets/5b7fc575-91e1-4c15-9379-a85f1f248745)
-
