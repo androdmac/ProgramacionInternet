@@ -28,6 +28,7 @@ Permite visualizar las imágenes agregadas con un diseño atractivo, animaciones
    - `index.html` → estructura  
    - `style.css` → estilos  
    - `script.js` → configuración de GLightbox
+     
 ✔️ Posibilidad de usar imágenes locales 📂 en la carpeta `/imagenes`  
 
 ---
