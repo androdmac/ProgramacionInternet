@@ -1,0 +1,83 @@
+/* color fondo */
+body {
+    background: linear-gradient(135deg, #52e4cb, #e787e7ee);
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* titulo */
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #333;
+    text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+    font-family: 'Poppins', sans-serif; /* tipografia para titulo (google fonts) */
+}
+
+/* imagenes */
+.gallery-img {
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.08) rotate(-1deg);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.35);
+}
+
+/* diseño flecha izquierda */
+.gprev::before {
+    content: "\f12f"; /* Código de bi-arrow-left-short */
+    font-family: "bootstrap-icons";
+    font-size: 2.5rem;
+    color: #5646e4;
+}
+
+/* diseño flecha derecha */
+.gnext::before {
+    content: "\f138"; /* Código de bi-arrow-right-short */
+    font-family: "bootstrap-icons";
+    font-size: 2.5rem;
+    color: #5646e4;
+}
+
+/* fondo semitransparente en flechas */
+.gprev, .gnext {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    padding: 8px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* efecto en flechas */
+.gprev:hover, .gnext:hover {
+    background: rgba(0, 0, 0, 0.6);
+    transform: scale(1.15);
+}
+
+/* color equis */
+.gclose svg {
+    display: none; /* Ocultamos el SVG original */
+}
+
+.gclose::before {
+    content: "\f62a"; /* bi-x-lg */
+    font-family: "bootstrap-icons";
+    font-size: 2rem;
+    color: #e63946; /* color equis esquina */
+}
+
+.gclose {
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    padding: 8px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+/* efecto en equis esquina */
+.gclose:hover {
+    background: rgba(0, 0, 0, 0.7);
+    transform: scale(1.2);
+    cursor: pointer;
+}
