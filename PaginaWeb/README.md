@@ -38,3 +38,5 @@ Permite visualizar las imágenes agregadas con un diseño atractivo, animaciones
 
 <img width="1365" height="675" alt="vistaprevia" src="https://github.com/user-attachments/assets/857469df-4716-4184-8c5c-e35d7d3ae454" />
 
+<img width="1365" height="628" alt="vistaprevia1" src="https://github.com/user-attachments/assets/561f2e55-6748-48c7-9631-c04f45b4cac1" />
+
