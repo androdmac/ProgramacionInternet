@@ -1,4 +1,4 @@
-# 📸 Galería de Fotos con Bootstrap & GLightbox  
+# 📸 Mi galería de Fotos con Bootstrap y GLightbox  
 
 ---
 
@@ -9,10 +9,10 @@ Permite visualizar las imágenes agregadas con un diseño atractivo, animaciones
 ---
 
 ## 🛠️ Tecnologías utilizadas  
-- 🌐 **HTML5** → estructura del sitio  
-- 🎨 **CSS3** → estilos y personalización (gradientes, sombras, animaciones)  
+- 🌐 **HTML** → estructura del sitio  
+- 🎨 **CSS** → estilos y personalización (gradientes, sombras, animaciones)  
 - ⚡ **JavaScript** → lógica de la galería  
-- 📦 **Bootstrap 5** → sistema de rejilla y componentes responsivos  
+- 📦 **Bootstrap ** → sistema de rejilla y componentes responsivos  
 - 💡 **GLightbox** → visor de imágenes elegante con efectos  
 
 ---
@@ -32,9 +32,9 @@ Permite visualizar las imágenes agregadas con un diseño atractivo, animaciones
 ---
 
 ## 🎨 Vista previa  
-✨ Al abrir una imagen, se muestra en un **visor elegante** con fondo oscuro tansparentoso.  
+✨ Se muestra en un **visor elegante** con fondo oscuro tansparentoso al abrir una imagen.  
 ➡ Navegación con flechas personalizadas.  
-❌ Puedes cerrar con una **X estilizada en rojo**.
+❌ Se puede cerrar con una **X estilizada en rojo** la venta de visualización de cada imagen.
 
-![Uploading vistaprevia.png…]()
-![Uploading vistaprevia1.png…]()
+<img width="1365" height="675" alt="vistaprevia" src="https://github.com/user-attachments/assets/857469df-4716-4184-8c5c-e35d7d3ae454" />
+
