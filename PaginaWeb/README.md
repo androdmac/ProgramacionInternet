@@ -12,7 +12,7 @@ Permite visualizar las imágenes agregadas con un diseño atractivo, animaciones
 - 🌐 **HTML** → estructura del sitio  
 - 🎨 **CSS** → estilos y personalización (gradientes, sombras, animaciones)  
 - ⚡ **JavaScript** → lógica de la galería  
-- 📦 **Bootstrap ** → sistema de rejilla y componentes responsivos  
+- 📦 **Bootstrap** → sistema de rejilla y componentes responsivos  
 - 💡 **GLightbox** → visor de imágenes elegante con efectos  
 
 ---
@@ -20,13 +20,14 @@ Permite visualizar las imágenes agregadas con un diseño atractivo, animaciones
 ## 🔧 Modificaciones realizadas  
 ✔️ Fondo con **degradado en diagonal** 
 ✔️ Título centrado con **sombra elegante** 
-✔️ Imágenes con **bordes redondeados** y efecto de **zoom + rotación** al pasar el mouse  
+✔️ Imágenes con **bordes redondeados** y efecto de **zoom + rotación** al pasar el mouse 
+
 ✔️ Navegación con **flechas personalizadas** (usando **Bootstrap Icons**)  
 ✔️ Botón de **cerrar (❌) estilizado** con color rojo y hover animado  
 ✔️ Separación del código en **3 archivos**:  
    - `index.html` → estructura  
    - `style.css` → estilos  
-   - `script.js` → configuración de GLightbox  
+   - `script.js` → configuración de GLightbox
 ✔️ Posibilidad de usar imágenes locales 📂 en la carpeta `/imagenes`  
 
 ---
