@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagina Web Libre</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mieles 🍯 </h1>
+    <nav>
+      <a href="#productos">Productos</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Miel natural con multiples beneficios</h1>
+    <p>Endulza tus bebidas con miel pura y productos derivados de nuestras colmenas.</p>
+    <button class="btn" onclick="scrollToSection('productos')">Ver productos</button>
+  </section>
+
+  <section id="productos">
+    <h2>Los productos más vendidos</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="imagenes/maguey.jpg" alt="Miel de Maguey" class="product-img">
+        <h3>Miel de Maguey</h3>
+        <p>Dulce y la favorita para bebidas</p>
+        <p class="price">$120</p>
+      </div>
+      <div class="card">
+        <img src="imagenes/multifloral.jpg" alt="Miel de Multifloral" class="product-img">
+        <h3>Miel Multifloral</h3>
+        <p>Mezcla de flores silvestres</p>
+        <p class="price">$110</p>
+      </div>
+      <div class="card">
+        <img src="imagenes/propoleo.jpg" alt="Estracto de Propoleo" class="product-img">
+        <h3>Estracto de Propoleo</h3>
+        <p>Propiedades medicinales</p>
+        <p class="price">$50</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="nosotros">
+    <h2>🌻 Sobre nosotros</h2>
+    <p class="text-center">Somos proveedores de las mieles más autenticas y ricas de todo jalisco, sobre todo respetuosos con nuestras amigas las abejas.</p>
+  </section>
+
+  <section id="contacto">
+    <h2> Contacto</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Nombre" required>
+      <input type="email" placeholder="Correo" required>
+      <textarea rows="4" placeholder="Escribe tu mensaje" required></textarea>
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </section>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="script.js"></script>
+</body>
+</html>
